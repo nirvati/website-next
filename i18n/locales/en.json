@@ -8,5 +8,9 @@
         "privacy-policy": "Privacy Policy",
         "security-report": "Report Security Issue",
         "support": "Get Support"
+    },
+    "blog": {
+        "title": "Blog",
+        "description": "Latest news and updates from the Nirvati team."
     }
 }

@@ -5,6 +5,12 @@ const pageSchema = z.object({
   title: z.string().min(1),
   description: z.string().optional(),
   startBehindNav: z.boolean().optional().default(false),
+  date: z.string().datetime().optional(),
+  authors: z.array(z.object({
+    name: z.string().nonempty(),
+  })).optional(),
+  badge: z.string().optional(),
+  image: z.string().optional(),
 });
 
 export default defineContentConfig({

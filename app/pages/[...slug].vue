@@ -31,9 +31,12 @@
             <NirvatiLogo class="h-16 w-auto" with-wordmark />
           </template>
 
-          <UNavigationMenu :items="items" :ui="{
-            linkLabel:  isAtTop ? 'dark:text-white' : ''
-          }"/>
+          <UNavigationMenu
+            :items="items"
+            :ui="{
+              linkLabel: isAtTop ? 'dark:text-white' : '',
+            }"
+          />
 
           <template #body>
             <UNavigationMenu
@@ -41,9 +44,13 @@
               orientation="vertical"
               class="-mx-2.5"
             />
-            <UButton color="primary" variant="solid" to="/support-us" class="mt-4">{{
-              t("navigation.support-us")
-            }}</UButton>
+            <UButton
+              color="primary"
+              variant="solid"
+              to="/support-us"
+              class="mt-4"
+              >{{ t("navigation.support-us") }}</UButton
+            >
           </template>
 
           <template #right>
@@ -59,14 +66,48 @@
                 aria-label="GitLab"
               />
             </UTooltip>
-            <UButton color="primary" variant="solid" to="/support-us" class="hidden lg:block">{{
-              t("navigation.support-us")
-            }}</UButton>
+            <UButton
+              color="primary"
+              variant="solid"
+              to="/support-us"
+              class="hidden lg:block"
+              >{{ t("navigation.support-us") }}</UButton
+            >
           </template>
         </UHeader>
 
         <UMain>
           <UContainer class="py-8" v-if="!page?.startBehindNav">
+            <UPageHeader
+              :title="page.title"
+              :description="page.description"
+              v-if="page?.path.startsWith('/blog/')"
+            >
+              <template #headline>
+                <UBadge :label="page.badge" variant="subtle" />
+                <span class="text-muted">&middot;</span>
+                <time class="text-muted" v-if="page.date">{{
+                  new Date(page.date).toLocaleDateString("en", {
+                    year: "numeric",
+                    month: "short",
+                    day: "numeric",
+                  })
+                }}</time>
+              </template>
+
+              <div class="flex flex-wrap items-center gap-3 mt-4">
+                <UButton
+                  v-for="(author, index) in page.authors"
+                  :key="index"
+                  color="neutral"
+                  variant="subtle"
+                  target="_blank"
+                  size="sm"
+                >
+                  {{ author.name }}
+                </UButton>
+              </div>
+            </UPageHeader>
             <ContentRenderer v-if="page" :value="page" />
             <div v-else>
               <h1>Page not found</h1>
@@ -89,10 +130,7 @@
             <NuxtLink to="/imprint" class="text-muted text-sm">
               {{ t("navigation.imprint") }}
             </NuxtLink>
-            <NuxtLink
-              to="/privacy-policy"
-              class="text-muted text-sm ml-4"
-            >
+            <NuxtLink to="/privacy-policy" class="text-muted text-sm ml-4">
               {{ t("navigation.privacy-policy") }}
             </NuxtLink>
             <NuxtLink to="/security" class="text-muted text-sm ml-4">
@@ -129,14 +167,20 @@ const items = computed<NavigationMenuItem[]>(() => [
   },
   {
     label: t("navigation.support"),
-    to: "/support"
+    to: "/support",
   },
 ]);
 
 const head = useLocaleHead({ seo: true });
 const title = computed(() => t(String(route.meta.title) ?? "Nirvati"));
 
-const slug = computed(() => withLeadingSlash(String(route.params.slug)));
+const slug = computed(() =>
+  withLeadingSlash(
+    Array.isArray(route.params.slug)
+      ? route.params.slug.join("/")
+      : String(route.params.slug)
+  )
+);
 
 const { data: page } = await useAsyncData(
   "page-" + slug.value,

@@ -1,1 +1,6 @@
-# TODO: Blog overview
+# Blog
+
+Neuigkeiten und Updates vom Nirvati-Team.
+
+::blog-posts
+::

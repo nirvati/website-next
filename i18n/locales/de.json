@@ -8,5 +8,9 @@
         "privacy-policy": "Datenschutz",
         "security-report": "Sicherheitsproblem melden",
         "support": "Unterstützung erhalten"
+    },
+    "blog": {
+        "title": "Blog",
+        "description": "Neueste Nachrichten und Updates vom Nirvati-Team."
     }
 }
