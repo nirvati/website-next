@@ -35,4 +35,12 @@ export default defineNuxtConfig({
     strategy: "prefix_except_default",
     defaultLocale: "en",
   },
+    studio: {
+    repository: {
+      provider: 'github',
+      owner: 'nirvati',
+      repo: 'website-next',
+      branch: 'main',
+    }
+  }
 });
