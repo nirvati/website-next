@@ -1,0 +1,12 @@
+{
+    "navigation": {
+        "install": "Install",
+        "hardware": "Hardware",
+        "support-us": "Support Us",
+        "blog": "Blog",
+        "imprint": "Imprint",
+        "privacy-policy": "Privacy Policy",
+        "security-report": "Report Security Issue",
+        "support": "Get Support"
+    }
+}
