@@ -34,7 +34,8 @@
           <UNavigationMenu
             :items="items"
             :ui="{
-              linkLabel: (isAtTop && page?.startBehindNav) ? 'dark:text-white' : '',
+              linkLabel:
+                isAtTop && page?.startBehindNav ? 'dark:text-white' : '',
             }"
           />
 
@@ -121,10 +122,16 @@
 
         <UFooter>
           <template #left>
-            <p class="text-muted text-sm">
-              Copyright © {{ new Date().getFullYear() }} Nirvati UG
-              (haftungsbeschränkt).
-            </p>
+            <div class="flex items-center gap-2 justify-center">
+              <a href="https://1tickle.xyz" class="font-bold text-sm"
+                >Designed by 1tickle</a
+              >
+              <span class="text-muted">&mdash;</span>
+              <p class="text-muted text-sm">
+                Copyright © {{ new Date().getFullYear() }} Nirvati UG
+                (haftungsbeschränkt).
+              </p>
+            </div>
           </template>
           <template #right>
             <NuxtLink to="/imprint" class="text-muted text-sm">
