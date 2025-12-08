@@ -17,6 +17,6 @@ const items = [
 ];
 
 const props = defineProps<{
-  delay?: number;
+  delay?: string;
 }>();
 </script>

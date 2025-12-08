@@ -13,7 +13,7 @@ export default defineContentConfig({
       type: 'page',
       source: {
         include: 'en/**',
-        prefix: '',
+        prefix: '/',
       },
       schema: pageSchema,
     }),
@@ -21,7 +21,7 @@ export default defineContentConfig({
       type: 'page',
       source: {
         include: 'de/**',
-        prefix: '',
+        prefix: '/',
       },
       schema: pageSchema,
     }),
