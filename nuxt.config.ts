@@ -12,6 +12,9 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
+  content: {
+    experimental: { nativeSqlite: true },
+  },
   compatibilityDate: "2024-04-03",
   i18n: {
     locales: [
