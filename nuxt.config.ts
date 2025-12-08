@@ -35,7 +35,8 @@ export default defineNuxtConfig({
         domain: "dev.nirvati.de",
       },
     ],
-    strategy: "prefix_except_default",
+    detectBrowserLanguage: false,
+    differentDomains: true,
     defaultLocale: "en",
   },
     studio: {
