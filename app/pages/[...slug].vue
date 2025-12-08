@@ -23,7 +23,7 @@
         <UHeader
           :class="{
             'fixed w-full': page?.startBehindNav,
-            'bg-default/10 border-transparent': isAtTop,
+            'bg-default/10 border-transparent': isAtTop && page?.startBehindNav,
           }"
           class="transition-border duration-500"
         >
@@ -34,7 +34,7 @@
           <UNavigationMenu
             :items="items"
             :ui="{
-              linkLabel: isAtTop ? 'dark:text-white' : '',
+              linkLabel: (isAtTop && page?.startBehindNav) ? 'dark:text-white' : '',
             }"
           />
 
