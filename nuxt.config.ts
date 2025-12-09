@@ -7,7 +7,6 @@ export default defineNuxtConfig({
     "@nuxtjs/i18n",
     "nuxt-studio",
   ],
-  css: ["~/assets/css/main.css"],
   devtools: { enabled: true },
   future: {
     compatibilityVersion: 4,

@@ -3,6 +3,12 @@
         "install": "Install",
         "hardware": "Hardware",
         "contribute": "Contribute",
+        "about-us": {
+            "title": "About Us",
+            "team": "Our Team",
+            "philosophy": "Our Philosophy",
+            "contact": "Contact Us"
+        },
         "blog": "Blog",
         "imprint": "Imprint",
         "privacy-policy": "Privacy Policy",

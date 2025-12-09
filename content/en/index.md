@@ -35,7 +35,7 @@ Behind user’s backs these cloud operators party with this data, censor and sni
 </div>
 
 
-<div class="bg-nirvati-brand text-white w-screen max-w-none relative left-1/2 right-1/2 -translate-x-1/2 flex items-center justify-center flex-col py-12 px-4 md:px-12 lg:px-24 mt-12 mb-12">
+<div class="bg-nirvati-brand text-white w-screen max-w-none relative left-1/2 right-1/2 -translate-x-1/2 flex items-center justify-center flex-col pt-4 pb-12 px-4 md:px-12 lg:px-24 mt-12 mb-12">
 
 [Nirvati OS is your private cloud]{.text-5xl.font-bold}
 
@@ -50,9 +50,9 @@ Behind user’s backs these cloud operators party with this data, censor and sni
 
 Nirvati OS is your route to regain data liberty and regain control of your digital life and data. Nirvati is Free and Open Source Software (FOSS), its completely free to use and modify for any purpose. You are the Cloud now!
 
-::img-with-card{src="/front-page/access_everywhere_v02_1000px_HighRes.jpg" alt="Access from everywhere illustration" textPosition="right"}
+::img-with-card{src="/front-page/access_everywhere_v02_1000px_HighRes.jpg" alt="Access from everywhere illustration" textPosition="right" card-class="bg-[#b3cedb] dark:text-black"}
 
-Access your personal cloud from everywhere
+[Access]{.text-[#800080]} your personal cloud from [everywhere]{.text-[#800080]}
 
 ::
 
@@ -62,11 +62,11 @@ Access your personal cloud from everywhere
 
 Nirvati can run on any mini-/PC, Raspberry Pi, Homelab, VM, on a RockPro or a NUC. No need for specialized hardware!
 
-Install
-your
-private
-cloud
-anywhere
+::img-with-card{src="/front-page/install_anywhere_1000px_HighRes_v02.jpg" alt="Install anywhere illustration" textPosition="left" card-class="bg-[#b3cedb] dark:text-black"}
+
+[Install]{.text-[#800080]} your private cloud [anywhere]{.text-[#800080]}
+
+::
 
 ## Unleash the power of AI
 
@@ -109,11 +109,24 @@ Educational focus OS
 Innovation Hub
 Innovation Hub
 Discover
-Contribute
-The Nirvati Family highly relies on open-source and the community.
 
-Become a part of the team and contribute today.
-How to contribute?
+<div class="bg-nirvati-brand text-white w-screen max-w-none relative left-1/2 right-1/2 -translate-x-1/2 flex items-center justify-center flex-col pt-4 pb-12 px-4 md:px-12 lg:px-24 mt-12 mb-12">
+
+<div class="mb-4">
+
+[Contribute]{.text-5xl.font-bold}
+
+</div>
+
+::nuxt-img{src="/front-page/nirvati_OS_contribute_v02_1000px_HighRes.jpg" alt="Contribute Illustration" aria-hidden="true" class="rounded-lg"}
+::
+
+Nirvati relies on contributions from the open source community to build the best possible experience for everyone.
+
+<a href="/contribute" class="bg-white dark:bg-white p-4 text-xl text-black dark:text-black rounded-lg">How to contribute?</a>
+
+</div>
+
 Prefer pre-installed OS?
 
 Get a Nirvati device

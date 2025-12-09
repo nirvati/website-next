@@ -10,14 +10,22 @@
     />
     <div class="w-full lg:w-1/4 flex items-center justify-center lg:self-stretch">
       <div
-        class="bg-black text-white p-4 rounded-lg w-full h-full text-center flex items-center justify-center"
+        class="p-4 rounded-lg w-full h-full text-center flex items-center justify-center"
+        :class="cardClass"
       >
-        <div class="font-semibold text-3xl"><slot></slot></div>
+        <div class="font-semibold text-4xl img-with-card-card-content"><slot></slot></div>
       </div>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-defineProps<{ src: string; alt: string; textPosition?: "left" | "right" }>();
+defineProps<{ src: string; alt: string; textPosition?: "left" | "right", cardClass?: string; }>();
 </script>
+
+<style>
+.img-with-card-card-content p {
+  --tw-leading: calc(var(--spacing) * 10);
+  line-height: calc(var(--spacing) * 10);
+}
+</style>

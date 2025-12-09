@@ -36,6 +36,8 @@
             :ui="{
               linkLabel:
                 isAtTop && page?.startBehindNav ? 'dark:text-white' : '',
+              linkTrailingIcon:
+                isAtTop && page?.startBehindNav ? 'dark:text-white' : '',
             }"
           />
 
@@ -48,9 +50,9 @@
             <UButton
               color="primary"
               variant="solid"
-              to="/support-us"
+              to="/contribute"
               class="mt-4"
-              >{{ t("navigation.support-us") }}</UButton
+              >{{ t("navigation.contribute") }}</UButton
             >
           </template>
 
@@ -70,9 +72,9 @@
             <UButton
               color="primary"
               variant="solid"
-              to="/support-us"
+              to="/contribute"
               class="hidden lg:block"
-              >{{ t("navigation.support-us") }}</UButton
+              >{{ t("navigation.contribute") }}</UButton
             >
           </template>
         </UHeader>
@@ -168,13 +170,30 @@ const items = computed<NavigationMenuItem[]>(() => [
     to: "/hardware",
   },
   {
-    label: t("navigation.blog"),
-    to: "/blog",
-    active: route.path.startsWith("/blog"),
-  },
-  {
     label: t("navigation.support"),
     to: "/support",
+  },
+  {
+    label: t("navigation.about-us.title"),
+    children: [
+      {
+        label: t("navigation.blog"),
+        to: "/blog",
+        active: route.path.startsWith("/blog"),
+      },
+      {
+        label: t("navigation.about-us.team"),
+        to: "/team",
+      },
+      {
+        label: t("navigation.about-us.philosophy"),
+        to: "/philosophy",
+      },
+      {
+        label: t("navigation.about-us.contact"),
+        to: "/contact",
+      },
+    ],
   },
 ]);
 
