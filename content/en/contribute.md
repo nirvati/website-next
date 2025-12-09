@@ -80,4 +80,9 @@ If you would like to support us financially, please consider the following optio
 - **Direct one-time contributions**: You can use the form below to make a one-time contribution via various payment methods.
 - **Open Collective**: You can use Open Collective [here](https://opencollective.com/nirvati-oss) to help fund ongoing development and maintenance. You can make recurring monthly contributions or one-time donations.
 
-# TODO: Form
+## Bitcoin payments
+
+:btc-pay-button
+
+## Other payment methods (Bank transfer, Credit Card, PayPal, ...)
+

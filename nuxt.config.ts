@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "@nuxtjs/i18n",
     "nuxt-studio",
+    "@nuxt/scripts"
   ],
   devtools: { enabled: true },
   future: {
@@ -38,12 +39,19 @@ export default defineNuxtConfig({
     differentDomains: true,
     defaultLocale: "en",
   },
-    studio: {
+  studio: {
     repository: {
       provider: 'github',
       owner: 'nirvati',
       repo: 'website-next',
       branch: 'main',
     }
-  }
+  },
+  nitro: {
+    esbuild: {
+      options: {
+        target: 'es2024'
+      }
+    },
+  },
 });
