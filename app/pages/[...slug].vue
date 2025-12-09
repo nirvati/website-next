@@ -198,7 +198,7 @@ const items = computed<NavigationMenuItem[]>(() => [
 ]);
 
 const head = useLocaleHead({ seo: true });
-const title = computed(() => t(String(route.meta.title) ?? "Nirvati"));
+const title = computed(() => t(route.meta.title ? String(route.meta.title) : "Nirvati"));
 
 const slug = computed(() =>
   withLeadingSlash(

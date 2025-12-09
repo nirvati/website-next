@@ -28,7 +28,11 @@
   --color-nirvati-950: #1d001d;
 }
 
-
 @source "../content/**/*.md";
+
+.nirvati-leading-10 p {
+  --tw-leading: calc(var(--spacing) * 10);
+  line-height: calc(var(--spacing) * 10);
+}
 
 </style>
