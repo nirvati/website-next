@@ -28,7 +28,9 @@
           class="transition-border duration-500"
         >
           <template #title>
-            <NirvatiLogo class="h-16 w-auto" with-wordmark />
+            <NirvatiLogo class="h-16 w-auto" with-wordmark :class="{
+              'dark:text-white': !isAtTop || !page?.startBehindNav,
+            }" />
           </template>
 
           <UNavigationMenu

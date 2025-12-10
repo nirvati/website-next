@@ -59,7 +59,9 @@ defineProps({
 </script>
 
 <style scoped>
-.main-logo {
-  color: var(--color-nirvati-brand);
+@layer theme {
+  .main-logo {
+    color: var(--color-nirvati-brand);
+  }
 }
 </style>
