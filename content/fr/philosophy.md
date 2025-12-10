@@ -1,3 +1,8 @@
+---
+title: Our Philosophy
+description: The guiding principles behind the Nirvati ecosystem
+---
+
 # Nirvati Ecosystem Philosophy
 
 ## Empowering Through Freedom

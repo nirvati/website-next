@@ -1,3 +1,8 @@
+---
+title: Hardware
+description: Get Nirvati OS preinstalled on supported hardware
+---
+
 # Hardware with Nirvati preinstalled
 
 We're working with [DTV Electronics](https://dtvelectronics.com/) to launch a hardware device with Nirvati preinstalled. Stay tuned for more details!

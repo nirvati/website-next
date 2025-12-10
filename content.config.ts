@@ -1,5 +1,6 @@
 import { defineContentConfig, defineCollection } from '@nuxt/content'
 import { z } from 'zod'
+import { asSeoCollection } from '@nuxtjs/seo/content';
 
 const pageSchema = z.object({
   title: z.string().min(1),
@@ -15,29 +16,29 @@ const pageSchema = z.object({
 
 export default defineContentConfig({
   collections: {
-    content_en: defineCollection({
+    content_en: defineCollection(asSeoCollection({
       type: 'page',
       source: {
         include: 'en/**',
         prefix: '/',
       },
       schema: pageSchema,
-    }),
-    content_de: defineCollection({
+    })),
+    content_de: defineCollection(asSeoCollection({
       type: 'page',
       source: {
         include: 'de/**',
         prefix: '/',
       },
       schema: pageSchema,
-    }),
-    content_fr: defineCollection({
+    })),
+    content_fr: defineCollection(asSeoCollection({
       type: 'page',
       source: {
         include: 'fr/**',
         prefix: '/',
       },
       schema: pageSchema,
-    }),
+    })),
   },
 })

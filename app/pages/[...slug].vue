@@ -2,7 +2,6 @@
   <div>
     <Html :lang="head.htmlAttrs.lang" :dir="head.htmlAttrs.dir">
       <Head>
-        <Title>{{ title }}</Title>
         <template v-for="link in head.link" :key="link.key">
           <Link
             :id="link.key"
@@ -200,7 +199,6 @@ const items = computed<NavigationMenuItem[]>(() => [
 ]);
 
 const head = useLocaleHead({ seo: true });
-const title = computed(() => t(route.meta.title ? String(route.meta.title) : "Nirvati"));
 
 const slug = computed(() =>
   withLeadingSlash(
@@ -244,4 +242,9 @@ onMounted(() => {
 onUnmounted(() => {
   window.removeEventListener("scroll", handleScroll);
 });
+
+useSeoMeta({
+  title: page.value?.title,
+  description: page.value?.description,
+})
 </script>

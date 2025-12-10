@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: [
+    "@nuxtjs/seo",
     "@nuxt/content",
     "@nuxt/ui",
     "@nuxt/image",
@@ -8,6 +9,9 @@ export default defineNuxtConfig({
     "nuxt-studio",
     "@nuxt/scripts"
   ],
+  site: {
+    name: 'Nirvati',
+  },
   devtools: { enabled: true },
   future: {
     compatibilityVersion: 4,

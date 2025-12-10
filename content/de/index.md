@@ -1,5 +1,7 @@
 ---
 startBehindNav: true
+title: Nirvati - Your Personal Cloud OS
+description: Nirvati OS is your private cloud solution, empowering you to take control of your digital life. Host your data and apps securely at home with ease.
 ---
 
 ::hero-slider

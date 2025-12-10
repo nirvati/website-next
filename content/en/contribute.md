@@ -1,3 +1,8 @@
+---
+title: Contribute
+description: Discover various ways to contribute to the Nirvati ecosystem to help us empower users worldwide.
+---
+
 # Contribute to Nirvati
 
 There are numerous ways you can support Nirvati. Every contribution, no matter how small, is highly valuable and we deeply appreciate your involvement in our community. Read on to explore the various ways you can make a difference within the Nirvati ecosystem.
