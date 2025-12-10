@@ -129,7 +129,7 @@ Nirvati can run on any mini-/PC, Raspberry Pi, Homelab, VM, on a RockPro or a NU
   text-position: right
   ---
   #card-big
-    ::::div{.flex.flex-col.gap-12.h-full.justify-center}
+    ::::div{.flex.flex-col.gap-12.h-full.justify-center.bg-white.dark:bg-neutral-800.py-4.rounded-xl.my-auto.h-fit}
       :::::app-store-apps
       :::::
 

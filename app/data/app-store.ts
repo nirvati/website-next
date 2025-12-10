@@ -1357,15 +1357,6 @@ const appStore: {
   },
   {
     name: {
-      en: "SoGo",
-    },
-    tagline: {
-      en: "Web mail interface",
-    },
-    icon: "https://official-app-icons.nirvati.org/sogo/icon.svg",
-  },
-  {
-    name: {
       en: "Navidrome",
     },
     tagline: {
