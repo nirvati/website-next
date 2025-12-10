@@ -31,9 +31,14 @@ Nirvati 0.9.0 will introduce a few major new features. Most of the technical wor
 
 ### A new server overview
 
+
+![Server overview](/blog/0-9-0-dev-update/servers.png)
+
 Nirvati 0.9.0 will introduce the first version of multi-server support. This means that you will be able to distribute your apps across multiple servers, improving performance and reliability.
 
 The new server overview will also allow you to shut down and restart individual servers, as well as see full resource usage per server.
+
+This is mostly ready, but still needs UI improvements and further testing.
 
 ### A new base operating system
 
