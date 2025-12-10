@@ -4,7 +4,7 @@
       <NuxtImg
         :src="src"
         :alt="alt"
-        class="object-cover rounded-lg"
+        class="object-cover rounded-lg w-full"
       />
     </template>
 

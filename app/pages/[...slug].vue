@@ -124,11 +124,11 @@
 
         <UFooter>
           <template #left>
-            <div class="flex items-center gap-2 justify-center">
+            <div class="flex items-center gap-2 justify-center flex-col md:flex-row">
               <a href="https://1tickle.xyz" class="font-bold text-sm"
                 >Designed by 1tickle</a
               >
-              <span class="text-muted">&mdash;</span>
+              <span class="text-muted hidden md:block">&mdash;</span>
               <p class="text-muted text-sm">
                 Copyright © {{ new Date().getFullYear() }} Nirvati UG
                 (haftungsbeschränkt).

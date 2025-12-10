@@ -34,5 +34,4 @@
   --tw-leading: calc(var(--spacing) * 10);
   line-height: calc(var(--spacing) * 10);
 }
-
 </style>
