@@ -27,7 +27,7 @@ Our commitment to user freedom is reflected in our choice of Kubernetes and n5i 
 
 <div class="grid md:grid-cols-2 gap-4">
 
-::emoji-card{emoji="☸️" title="Kubernetes"}
+::img-card-with-title{src="/philosophy/kubernetes.svg"}
 
 **The Backbone of Scalability**
 
@@ -35,7 +35,7 @@ Kubernetes plays a vital role as the orchestrator of our ecosystem. It enables u
 
 ::
 
-::emoji-card{emoji="🪁" title="n5i"}
+::img-card-with-title{src="/philosophy/n5i_logo_text_below.svg"}
 
 **The Beacon of Innovation**
 

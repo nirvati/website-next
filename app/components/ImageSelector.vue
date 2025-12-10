@@ -9,9 +9,9 @@
           :key="hw.id"
           class="mb-4 flex items-center justify-center flex-col cursor-pointer transition-colors"
           :class="{
-            'bg-neutral-100 dark:bg-neutral-800 rounded-lg p-4 hover:bg-neutral-200 dark:hover:bg-neutral-700':
+            'bg-sky-100 dark:bg-neutral-800 rounded-lg p-4 hover:bg-sky-200 dark:hover:bg-neutral-700':
               selectedHw !== hw.id && !hw.pad,
-            'bg-neutral-200 dark:bg-neutral-700 rounded-lg p-4':
+            'bg-sky-200 dark:bg-neutral-700 rounded-lg p-4':
               selectedHw === hw.id && !hw.pad,
           }"
           @click="
@@ -51,9 +51,9 @@
           :key="base.id"
           class="mb-4 flex items-center justify-center flex-col transition-colors"
           :class="{
-            'cursor-pointer bg-neutral-100 dark:bg-neutral-800 rounded-lg p-4 hover:bg-neutral-200 dark:hover:bg-neutral-700':
+            'cursor-pointer bg-sky-100 dark:bg-neutral-800 rounded-lg p-4 hover:bg-sky-200 dark:hover:bg-neutral-700':
               selectedBase !== base.id && !base.todo,
-            'cursor-pointer bg-neutral-200 dark:bg-neutral-700 rounded-lg p-4':
+            'cursor-pointer bg-sky-200 dark:bg-neutral-700 rounded-lg p-4':
               selectedBase === base.id,
             'bg-neutral-50 dark:bg-neutral-950 rounded-lg p-4 cursor-not-allowed':
               base.todo,
@@ -101,9 +101,9 @@
           :key="storage.id"
           class="mb-4 flex items-center justify-center flex-col cursor-pointer transition-colors"
           :class="{
-            'bg-neutral-100 dark:bg-neutral-800 rounded-lg p-4 hover:bg-neutral-200 dark:hover:bg-neutral-700':
+            'bg-sky-100 dark:bg-neutral-800 rounded-lg p-4 hover:bg-sky-200 dark:hover:bg-neutral-700':
               selectedStorage !== storage.id,
-            'bg-neutral-200 dark:bg-neutral-700 rounded-lg p-4':
+            'bg-sky-200 dark:bg-neutral-700 rounded-lg p-4':
               selectedStorage === storage.id,
           }"
           @click="
@@ -145,9 +145,9 @@
           :key="disk.id"
           class="mb-4 flex items-center justify-center flex-col cursor-pointer transition-colors"
           :class="{
-            'bg-neutral-100 dark:bg-neutral-800 rounded-lg p-4 hover:bg-neutral-200 dark:hover:bg-neutral-700':
+            'bg-sky-100 dark:bg-neutral-800 rounded-lg p-4 hover:bg-sky-200 dark:hover:bg-neutral-700':
               chosenDisk !== disk.id,
-            'bg-neutral-200 dark:bg-neutral-700 rounded-lg p-4':
+            'bg-sky-200 dark:bg-neutral-700 rounded-lg p-4':
               chosenDisk === disk.id,
           }"
           @click="
