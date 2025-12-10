@@ -3,31 +3,28 @@
     <div class="flex flex-col items-center justify-center w-full p-4">
       <h1 class="text-3xl font-bold mb-2">{{ t("install.hardware.title") }}</h1>
       <p class="mb-4">{{ t("install.hardware.description") }}</p>
-      <div class="grid lg:grid-cols-3 gap-4">
+      <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-4">
         <div
           v-for="hw in supportedHw"
           :key="hw.id"
           class="mb-4 flex items-center justify-center flex-col cursor-pointer transition-colors"
           :class="{
             'bg-sky-100 dark:bg-neutral-800 rounded-lg p-4 hover:bg-sky-200 dark:hover:bg-neutral-700':
-              selectedHw !== hw.id && !hw.pad,
+              selectedHw !== hw.id,
             'bg-sky-200 dark:bg-neutral-700 rounded-lg p-4':
-              selectedHw === hw.id && !hw.pad,
+              selectedHw === hw.id,
           }"
           @click="
-            !hw.pad && (() => {
             selectedHw = hw.id;
             scrollToSection('disk');
-            })()
           "
         >
           <img
             :src="hw.image"
             :alt="t(`install.hardware.options.${hw.id}`)"
             class="max-h-48 max-w-48 mb-2"
-            v-if="!hw.pad"
           />
-          <h2 class="text-lg font-semibold" v-if="!hw.pad">
+          <h2 class="text-lg font-semibold">
             {{ t(`install.hardware.options.${hw.id}`) }}
           </h2>
         </div>
@@ -195,10 +192,10 @@
 <script setup lang="ts">
 import { UColorModeImage } from "#components";
 
-const supportedHw: ({
+const supportedHw: {
   id: "rpi4b" | "uefi-x86" | "rock-5-cm-rpi-cm4-io" | "uefi-arm64";
   image: string;
-} | { id: string; pad: true; })[] = [
+}[] = [
   {
     id: "rpi4b",
     image: "/download-selector/rpi.svg",
@@ -210,10 +207,6 @@ const supportedHw: ({
   {
     id: "uefi-x86",
     image: "/download-selector/uefi-x86.svg",
-  },
-  {
-    id: "pad-1",
-    pad: true
   },
   {
     id: "uefi-arm64",
