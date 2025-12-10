@@ -1,0 +1,73 @@
+{
+    "install": {
+        "title": "Installer Nirvati",
+        "description": "Nirvati peut être installé sur différents types de matériel. Choisissez ci-dessous votre méthode d'installation préférée.",
+        "existing-linux": "Ou, installez-le sur un système Linux existant",
+        "settings-hint": "Si vous n'êtes pas sûr de ce paramètre, vous pouvez le laisser à sa valeur par défaut, elle convient à la plupart des utilisateurs.",
+        "storage": {
+            "title": "Stockage",
+            "description": "Choisissez la configuration de stockage pour votre installation Nirvati. La configuration de stockage gère la manière dont les données sont stockées et accessibles dans votre environnement Nirvati.",
+            "options": {
+                "localpath": {
+                    "description": "Utilisez le chemin d'accès local pour une gestion simple du stockage. Cela nécessite moins de ressources, mais ne prend pas en charge les sauvegardes, les instantanés, les appareils multiples ou les limites de taille.",
+                    "label": "Couche de stockage simple"
+                },
+                "longhorn": {
+                    "description": "Utilisez Longhorn pour une gestion avancée du stockage avec prise en charge des sauvegardes, des instantanés et plus encore.",
+                    "label": "Couche de stockage avancée"
+                }
+            },
+            "disclaimer": "Longhorn est une marque déposée de la Cloud Native Computing Foundation. Nirvati n'est ni affiliée à la Cloud Native Computing Foundation, ni approuvée par celle-ci."
+        },
+        "base": {
+            "title": "Système de base",
+            "todo": "À venir prochainement",
+            "description": "Choisissez le système de base pour votre installation Nirvati. Le système de base fournit les services et applications essentiels à votre environnement Nirvati.",
+            "options": {
+                "micro": {
+                    "label": "Nirvati Micro",
+                    "description": "Un système de base absolument minimaliste, ne comprenant que les services et applications les plus essentiels, adapté aux déploiements sur un seul serveur."
+                },
+                "k3s": {
+                    "label": "K3s",
+                    "description": "Une distribution Kubernetes légère pour les déploiements sur un seul serveur."
+                },
+                "rke2": {
+                    "label": "RKE2",
+                    "description": "Une distribution Kubernetes optimisée pour les déploiements multi-serveurs."
+                }
+            },
+            "disclaimer": "RKE2 et le logo RKE2 sont conçus et détenus par SUSE LLC. K3s et le logo K3s sont des marques déposées de la Cloud Native Computing Foundation. Nirvati n'est pas affilié à SUSE LLC ou à la Cloud Native Computing Foundation, ni approuvé par ces derniers."
+        },
+        "disk": {
+            "title": "Disque",
+            "description": "Choisissez si vous souhaitez stocker les données sur le même disque que celui sur lequel Nirvati est installé ou sur un disque séparé.",
+            "options": {
+                "internal": {
+                    "label": "Même disque",
+                    "description": "Stockez les données sur le même disque que l'image Nirvati que vous allez télécharger."
+                },
+                "external": {
+                    "label": "Disque séparé",
+                    "description": "Stockez les données sur un disque séparé."
+                }
+            }
+        },
+        "hardware": {
+            "options": {
+                "rpi4b": "Raspberry Pi 4B, 5, CM4 or CM5",
+                "uefi-x86": "Systèmes x86_64 UEFI (Intel/AMD)",
+                "uefi-arm64": "Systèmes UEFI arm64",
+                "rock-5-cm-rpi-cm4-io": "Radxa CM5 (sur cartes RPi CM4)"
+            },
+            "title": "Choisissez votre matériel informatique",
+            "description": "Sélectionnez le matériel informatique sur lequel vous souhaitez installer Nirvati."
+        },
+        "download": {
+            "title": "Télécharger Nirvati",
+            "description": "Téléchargez l'image Nirvati pour le matériel informatique que vous avez choisi. L'image est un système préconfiguré qui peut être copié sur une clé USB ou une carte SD.",
+            "button": "Télécharger l'image",
+            "final-note": "Ces images ne sont pas conçues pour installer Nirvati. Il s'agit plutôt d'images directement amorçables qui peuvent être écrites sur une clé USB ou une carte SD."
+        }
+    }
+}

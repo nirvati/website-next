@@ -31,5 +31,13 @@ export default defineContentConfig({
       },
       schema: pageSchema,
     }),
+    content_fr: defineCollection({
+      type: 'page',
+      source: {
+        include: 'fr/**',
+        prefix: '/',
+      },
+      schema: pageSchema,
+    }),
   },
 })
