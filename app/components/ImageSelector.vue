@@ -24,9 +24,9 @@
             :alt="t(`install.hardware.options.${hw.id}`)"
             class="max-h-48 max-w-48 mb-2"
           />
-          <h2 class="text-lg font-semibold">
+          <span class="text-lg font-semibold">
             {{ t(`install.hardware.options.${hw.id}`) }}
-          </h2>
+          </span>
         </div>
       </div>
     </div>
@@ -69,9 +69,9 @@
             :alt="t(`install.base.options.${base.id}.label`)"
             class="max-h-48 max-w-48 mb-2"
           />
-          <h2 class="text-lg font-semibold">
+          <span class="text-lg font-semibold">
             {{ t(`install.base.options.${base.id}.label`) }}
-          </h2>
+          </span>
           <p class="max-w-md text-center">
             {{ t(`install.base.options.${base.id}.description`) }}
           </p>
@@ -115,9 +115,9 @@
             :alt="t(`install.storage.options.${storage.id}.label`)"
             class="max-h-48 max-w-48 mb-2"
           />
-          <h2 class="text-lg font-semibold">
+          <span class="text-lg font-semibold">
             {{ t(`install.storage.options.${storage.id}.label`) }}
-          </h2>
+          </span>
           <p class="max-w-md text-center">
             {{ t(`install.storage.options.${storage.id}.description`) }}
           </p>
@@ -159,9 +159,9 @@
             :alt="t(`install.disk.options.${disk.id}.label`)"
             class="max-h-48 max-w-48 mb-2"
           />
-          <h2 class="text-lg font-semibold">
+          <span class="text-lg font-semibold">
             {{ t(`install.disk.options.${disk.id}.label`) }}
-          </h2>
+          </span>
           <p class="max-w-md text-center">
             {{ t(`install.disk.options.${disk.id}.description`) }}
           </p>

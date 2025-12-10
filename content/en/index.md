@@ -114,7 +114,7 @@ Run it on any mini-/PC, Raspberry Pi, Homelab, VM, on a RockPro or a NUC &mdash;
   ::::app-store-ai-apps{class="mb-4"}
   ::::
 
-  No registration or privacy leaks, with AI integration on these and other apps.
+  No registration or privacy leaks, with AI integration on these and various other apps.
 
   :::
 
@@ -150,11 +150,18 @@ Run it on any mini-/PC, Raspberry Pi, Homelab, VM, on a RockPro or a NUC &mdash;
     [Contribute]{.text-5xl.font-bold}
     ::::
 
+<div class="flex lg:flex-row-reverse flex-col items-center justify-center gap-8">
+  
   :nuxt-img{.rounded-xl alt="Contribute Illustration" ariaHidden="true" src="/front-page/nirvati_OS_contribute_v02_1000px_HighRes.jpg"}
 
-  Nirvati relies on contributions from the open source community to build the best possible experience for everyone.
+<div class="max-w-md text-center lg:text-left">
+
+  [Nirvati relies on contributions from the open source community to build the best possible experience for everyone.]{.mb-4.text-lg.font-semibold}
 
   [How to contribute?](/contribute){.bg-white.dark:bg-white.p-4.text-xl.text-black.dark:text-black.rounded-xl}
+  </div>
+</div>
+
   :::
 
 ::
