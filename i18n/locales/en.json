@@ -15,8 +15,75 @@
         "security-report": "Report Security Issue",
         "support": "Get Support"
     },
-    "blog": {
-        "title": "Blog",
-        "description": "Latest news and updates from the Nirvati team."
+    "install": {
+        "title": "Install Nirvati",
+        "description": "Nirvati can be installed on various hardware platforms. Choose your preferred installation method below.",
+        "existing-linux": "Or, Install on an existing Linux system",
+        "settings-hint": "If you're not sure about this setting, you can leave it at its default value, it's suitable for most users.",
+        "storage": {
+            "title": "Storage",
+            "description": "Choose the storage layer for your Nirvati installation. The storage layer manages how data is stored and accessed in your Nirvati environment.",
+            "options": {
+                "localpath": {
+                    "label": "Simple Storage Layer",
+                    "description": "Use the local path provisioner for simple storage management. This has less resource usage but does not support backups, snapshots, multiple devices, or size limits."
+                },
+                "longhorn": {
+                    "label": "Advanced Storage Layer",
+                    "description": "Use Longhorn for advanced storage management with support for backups, snapshots, and more."
+                }
+            },
+            "disclaimer": "Longhorn is a trademark of the Cloud Native Computing Foundation. Nirvati is not affiliated with or endorsed by the Cloud Native Computing Foundation."
+        },
+        "base": {
+            "title": "Base system",
+            "todo": "Coming soon",
+            "description": "Choose the base system for your Nirvati installation. The base system provides essential services and applications for your Nirvati environment.",
+            "options": {
+                "micro": {
+                    "label": "Nirvati Micro",
+                    "description": "An absolutely minimal base system with only the most essential services and applications, suitable for single-server deployments."
+                },
+                "k3s": {
+                    "label": "K3s",
+                    "description": "A lightweight Kubernetes distribution for single-server deployments."
+                },
+                "rke2": {
+                    "label": "RKE2",
+                    "description": "An optimized Kubernetes distribution for multi-server deployments."
+                }
+            },
+            "disclaimer": "RKE2 and the RKE2 logo are designed and owned by SUSE LLC. K3s and the K3s logo are registered trademarks of the Cloud Native Computing Foundation. Nirvati is not affiliated with or endorsed by SUSE LLC or the Cloud Native Computing Foundation."
+        },
+        "disk": {
+            "title": "Disk",
+            "description": "Select whether to store data on the same disk Nirvati is installed on or on a separate disk.",
+            "options": {
+                "internal": {
+                    "label": "Same disk",
+                    "description": "Store data on the same disk as the Nirvati image you'll download."
+                },
+                "external": {
+                    "label": "Separate disk",
+                    "description": "Store data on a separate disk."
+                }
+            }
+        },
+        "hardware": {
+            "title": "Choose your hardware platform",
+            "description": "Select the hardware platform you want to install Nirvati on.",
+            "options": {
+                "rpi4b": "Raspberry Pi 4B, 5, CM4 or CM5",
+                "uefi-x86": "x86_64 UEFI (Intel/AMD) systems",
+                "uefi-arm64": "arm64 UEFI systems",
+                "rock-5-cm-rpi-cm4-io": "Radxa CM5 (on RPi CM4 Boards)"
+            }
+        },
+        "download": {
+            "title": "Download Nirvati",
+            "description": "Download the Nirvati image for your chosen hardware platform. The image is a pre-configured system that can be written to a USB stick or SD card.",
+            "button": "Download Image",
+            "final-note": "These images are not designed to install Nirvati. Instead, they are directly bootable images that can be written to a USB stick or SD card."
+        }
     }
 }
