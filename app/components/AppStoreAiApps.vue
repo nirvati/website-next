@@ -5,6 +5,7 @@
       root: '[--duration:50s]',
     }"
     class="text-left"
+    :overlay="false"
   >
     <div
       v-for="(entry, index) in randomizedAppStoreEntries"
