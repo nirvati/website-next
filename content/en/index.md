@@ -104,7 +104,7 @@ Nirvati can run on any mini-/PC, Raspberry Pi, Homelab, VM, on a RockPro or a NU
   ---
   class: bg-nirvati-brand text-white w-screen max-w-none relative left-1/2
     right-1/2 -translate-x-1/2 flex items-center justify-center flex-col pt-4
-    pb-12 px-4 md:px-12 lg:px-24 mt-12 mb-12
+    pb-12 px-4 md:px-12 lg:px-24 mt-12 mb-12 overflow-x-hidden
   ---
   [Unleash the power of AI]{.text-5xl.font-bold}
 
