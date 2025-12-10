@@ -1,5 +1,7 @@
 # Privacy Policy
 
+<div class="rounded-xl bg-white dark:bg-neutral-800 py-2 px-6">
+
 1\. An overview of data protection
 ----------------------------------
 
@@ -265,3 +267,5 @@ We use the following payment services / payment service providers within the sco
 #### Mollie
 
 The provider of this payment service is Mollie B.V, Keizersgracht 126, 1015CW Amsterdam, Netherlands (hereinafter "Mollie"). With the help of Mollie, we can integrate various payment methods on our website. Details can be found in Mollie's privacy policy: [https://www.mollie.com/de/privacy](https://www.mollie.com/de/privacy).
+
+</div>
