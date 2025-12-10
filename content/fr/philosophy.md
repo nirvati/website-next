@@ -52,14 +52,6 @@ Flexibility and Adaptability for All
 We refer to Nirvati OS as the “General Core OS” because it embodies our philosophy. Similar to a chef who crafts unique dishes from a variety of ingredients, we’ve built our ecosystem on a core that’s flexible, adaptable, and versatile. Nirvati OS serves as the starting point for those who seek to reclaim their digital self-sovereignty, providing freedom of choice and versatility for mainstream users.
 
 
-### Citadel OS and Luxdis OS: Tailored Solutions
-
-Nirvati OS is currently in progress of being extended through Citadel OS, which integrates the broader Nirvati philosophy of efficiency, making it an ideal choice for Bitcoin enthusiasts.
-
-Luxdis OS is designed specifically for educational institutions, catering to the unique requirements of the academic environment.
-
-These specialized OSs respect the principles of Freedom by providing tailored choices to meet specific needs.
-
 ## Tools and Services of our FOSS Ecosystem
 
 **Simplifying Digital Life**
