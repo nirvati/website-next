@@ -190,10 +190,10 @@ const items = computed<NavigationMenuItem[]>(() => [
         label: t("navigation.about-us.philosophy"),
         to: "/philosophy",
       },
-      {
+      /*{
         label: t("navigation.about-us.contact"),
         to: "/contact",
-      },
+      },*/
     ],
   },
 ]);

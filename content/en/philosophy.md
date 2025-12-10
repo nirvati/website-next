@@ -4,7 +4,7 @@ description: The guiding principles behind the Nirvati ecosystem
 ---
 
 <div class="text-center my-12">
-<h1 class="text-5xl font-bold mb-4">Nirvati Ecosystem Philosophy</h1>
+<h1 class="text-5xl font-bold mb-4">Ecosystem Philosophy</h1>
 <span class="text-3xl font-bold text-center">Libre: Empowering Through Freedom</span>
 </div>
 

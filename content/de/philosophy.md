@@ -3,11 +3,13 @@ title: Our Philosophy
 description: The guiding principles behind the Nirvati ecosystem
 ---
 
-# Nirvati Ecosystem Philosophy
+<div class="text-center my-12">
+<h1 class="text-5xl font-bold mb-4">Ecosystem Philosophy</h1>
+<span class="text-3xl font-bold text-center">Libre: Empowering Through Freedom</span>
+</div>
 
-## Empowering Through Freedom
-
-At Nirvati, we believe that technology should be an enabler, not a restrictor. Our philosophy is grounded in the concept of “Libre,” which encompasses the principles of Free and Open Source Software (FOSS), thanks to n5i. FOSS represents the embodiment of freedom, choice, and empowerment.
+<div class="rounded-xl bg-white dark:bg-neutral-800 p-6">
+At Nirvati, we believe that technology should be an enabler, not a restrictor. Our philosophy is grounded in the concept of “Libre” Software, which encompasses the principles of Free and Open Source Software (FOSS), thanks to **n5i**. FOSS represents the embodiment of freedom, choice, and empowerment.
 
 By embracing FOSS values, we empower individuals, families, organizations, and even governments to have control over their digital lives. We provide choices that align with the essence of “Libre,” allowing users to decide how they interact with technology and data. This emphasis on freedom is at the core of our philosophy paired with versatility, security, data ownership and self-soverignty.
 
@@ -27,7 +29,7 @@ Our commitment to user freedom is reflected in our choice of Kubernetes and n5i 
 
 <div class="grid md:grid-cols-2 gap-4">
 
-::emoji-card{emoji="☸️" title="Kubernetes"}
+::img-card-with-title{src="/philosophy/kubernetes.svg"}
 
 **The Backbone of Scalability**
 
@@ -35,7 +37,7 @@ Kubernetes plays a vital role as the orchestrator of our ecosystem. It enables u
 
 ::
 
-::emoji-card{emoji="🪁" title="n5i"}
+::img-card-with-title{src="/philosophy/n5i_logo_text_below.svg"}
 
 **The Beacon of Innovation**
 
@@ -63,3 +65,4 @@ Nirvati goes beyond operating systems; our suite of tools and services simplifie
 In our ever-connected world, we understand the importance of freedom, choice, and empowerment. At Nirvati, we believe in providing versatile and empowering choices, ensuring that individuals and organizations can take control of their digital self-sovereignty of their data securely and easily.
 
 Welcome to Nirvati, where “Libre” secure self-sovereignty of your data is at the heart of our philosophy, without asterisks ‘*‘.
+</div>
