@@ -24,7 +24,7 @@ delay: "5000"
     ---
     alt: Data Center
     ariaHidden: "true"
-    class: max-w-md bg-[#c093c9] text-black
+    class: max-w-md bg-[#c093c9] text-neutral-900
     src: /front-page/Data-center_600px_HighRes.jpg
     ---
     In the digital realm, we’re mere tenants. Your data in clouds is hosted via overreaching Terms and Conditions – and Big Tech holds the keys to it.
@@ -34,7 +34,7 @@ delay: "5000"
     ---
     alt: A CCTV camera
     ariaHidden: "true"
-    class: max-w-md bg-[#b3cedb] text-black
+    class: max-w-md bg-[#b3cedb] text-neutral-900
     src: /front-page/CCTV_600px_HighRes.jpg
     ---
     Behind user’s backs these cloud operators party with this data, censor and sniff it at will, overtake ownership and sell them to the highest bidder.
@@ -44,7 +44,7 @@ delay: "5000"
     ---
     alt: A balloon
     ariaHidden: "true"
-    class: max-w-md bg-[#c093c9] text-black
+    class: max-w-md bg-[#c093c9] text-neutral-900
     src: /front-page/Solution_600px_HighRes.jpg
     ---
     Nirvati OS is your exit strategy to regaining power over your digital self. Be your own hoster and break free from using foreign clouds. Its never been so easy!
@@ -78,7 +78,7 @@ delay: "5000"
   src: /front-page/access_everywhere_v02_1000px_HighRes.jpg
   text-position: right
   ---
-  [Access]{.text-[#800080].block} [your]{.block} [personal]{.block} [cloud]{.block} [from]{.block} [everywhere]{.text-[#800080].block}
+  [Access]{.text-[#800080]} your personal cloud from [everywhere]{.text-[#800080]}
   :::
 
   :::div{.py-8}
@@ -97,7 +97,7 @@ Nirvati can run on any mini-/PC, Raspberry Pi, Homelab, VM, on a RockPro or a NU
   src: /front-page/install_anywhere_1000px_HighRes_v02.jpg
   text-position: left
   ---
-  [Install]{.text-[#800080].block} [your]{.block} [private]{.block} [cloud]{.block} [anywhere]{.text-[#800080].block}
+  [Install]{.text-[#800080]} your private cloud [anywhere]{.text-[#800080]}
   :::
 
   :::div
