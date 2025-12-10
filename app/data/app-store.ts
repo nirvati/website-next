@@ -104,15 +104,6 @@ const appStore: {
   },
   {
     name: {
-      en: "Ollama - Nvidia",
-    },
-    tagline: {
-      en: "LLMs inference server with OpenAI compatible API",
-    },
-    icon: "https://raw.githubusercontent.com/runtipi/runtipi-appstore/master/apps/ollama-nvidia/metadata/logo.jpg",
-  },
-  {
-    name: {
       en: "Nextcloud",
     },
     tagline: {
@@ -627,7 +618,7 @@ const appStore: {
   },
   {
     name: {
-      en: "Ollama - CPU",
+      en: "Ollama",
     },
     tagline: {
       en: "LLMs inference server with OpenAI compatible API",

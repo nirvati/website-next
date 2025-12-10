@@ -1,5 +1,5 @@
 <template>
-  <div class="rounded-lg overflow-hidden">
+  <div class="rounded-xl overflow-hidden">
     <NuxtImg :src="src" :alt="alt" class="w-full object-cover" />
     <div class="px-6 py-4">
       <div class="font-semibold text-2xl mb-2 text-center">

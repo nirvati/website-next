@@ -10,7 +10,7 @@
       class="w-full lg:w-1/4 flex items-center justify-center lg:self-stretch"
     >
       <div
-        class="p-4 rounded-lg w-full h-full text-center flex items-center justify-center"
+        class="p-4 rounded-xl w-full h-full text-center flex items-center justify-center"
         :class="smallCardClass"
       >
         <slot name="card-small"></slot>

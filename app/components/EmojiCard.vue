@@ -1,5 +1,5 @@
 <template>
-  <div class="rounded-lg overflow-hidden bg-neutral-100 dark:bg-neutral-700">
+  <div class="rounded-xl overflow-hidden bg-neutral-100 dark:bg-neutral-700">
     <div class="my-8 flex items-center justify-center text-center">
       <span class="text-6xl">{{ emoji }}</span>
     </div>

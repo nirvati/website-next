@@ -1,5 +1,5 @@
 <template>
-  <div class="rounded-lg overflow-hidden bg-neutral-100 dark:bg-neutral-700">
+  <div class="rounded-xl overflow-hidden bg-neutral-100 dark:bg-neutral-700">
     <NuxtImg :src="src" :alt="alt" class="w-full object-cover" />
     <div class="px-6">
       <div class="font-semibold text-3xl mb-2 text-center">

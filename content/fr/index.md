@@ -59,10 +59,10 @@ delay: "5000"
   ---
   [Nirvati OS is your private cloud]{.text-5xl.font-bold}
 
-  [~~Google Drive, Dropbox, Imgur, iCloud, OneDrive~~:]{.block.text-lg.font-semibold.mb-2.text-sky-200}
+  [~~Google Drive, Dropbox, Imgur, iCloud, OneDrive~~:]{.block.text-lg.mb-2.text-sky-200}
   [Your home, your data.]{.text-lg.font-bold.mb-8.text-sky-200}
 
-  :nuxt-img{.rounded-lg alt="Personal Cloud Illustration" ariaHidden="true" src="/front-page/personal-cloud.jpg"}
+  :nuxt-img{.rounded-xl alt="Personal Cloud Illustration" ariaHidden="true" src="/front-page/personal-cloud.jpg"}
   :::
 
 [Self-Sovereignity is freedom]{.text-4xl.font-bold.block.mb-4.text-[#800080]}
@@ -78,7 +78,7 @@ delay: "5000"
   src: /front-page/access_everywhere_v02_1000px_HighRes.jpg
   text-position: right
   ---
-  [Access]{.text-[#800080]} your personal cloud from [everywhere]{.text-[#800080]}
+  [Access]{.text-[#800080].block} [your]{.block} [personal]{.block} [cloud]{.block} [from]{.block} [everywhere]{.text-[#800080].block}
   :::
 
   :::div{.py-8}
@@ -97,7 +97,7 @@ Nirvati can run on any mini-/PC, Raspberry Pi, Homelab, VM, on a RockPro or a NU
   src: /front-page/install_anywhere_1000px_HighRes_v02.jpg
   text-position: left
   ---
-  [Install]{.text-[#800080]} your private cloud [anywhere]{.text-[#800080]}
+  [Install]{.text-[#800080].block} [your]{.block} [private]{.block} [cloud]{.block} [anywhere]{.text-[#800080].block}
   :::
 
   :::div
@@ -110,10 +110,16 @@ Nirvati can run on any mini-/PC, Raspberry Pi, Homelab, VM, on a RockPro or a NU
 
   [Ask questions, educate yourself on a topic or send requests based on your personal files – but without the curious middlemen.]{.text-lg.font-semibold.mb-8.text-sky-200}
 
+
+  ::::app-store-ai-apps
+  ::::
+  
   Ask sensitive questions safely.
   No registration required.
   No privacy leaks.
-  Self-host your LLMs today.
+  With AI integration on various apps.
+  
+
   :::
 
 [Nirvati app store]{.text-4xl.font-bold.block.mb-4.text-[#800080]}
@@ -132,7 +138,7 @@ Nirvati can run on any mini-/PC, Raspberry Pi, Homelab, VM, on a RockPro or a NU
     ::::
 
   #card-small
-    ::::div{.font-semibold.text-3xl.nirvati-leading-10}
+    ::::div{.font-semibold.text-2xl.nirvati-leading-10}
     Discover the world of the most trusted, free, open source and user-friendly apps for your daily digital life.
     [Constantly growing App-Store at your fingertips.]{.text-[#800080]}
     ::::
@@ -148,11 +154,11 @@ Nirvati can run on any mini-/PC, Raspberry Pi, Homelab, VM, on a RockPro or a NU
     [Contribute]{.text-5xl.font-bold}
     ::::
 
-  :nuxt-img{.rounded-lg alt="Contribute Illustration" ariaHidden="true" src="/front-page/nirvati_OS_contribute_v02_1000px_HighRes.jpg"}
+  :nuxt-img{.rounded-xl alt="Contribute Illustration" ariaHidden="true" src="/front-page/nirvati_OS_contribute_v02_1000px_HighRes.jpg"}
 
   Nirvati relies on contributions from the open source community to build the best possible experience for everyone.
 
-  [How to contribute?](/contribute){.bg-white.dark:bg-white.p-4.text-xl.text-black.dark:text-black.rounded-lg}
+  [How to contribute?](/contribute){.bg-white.dark:bg-white.p-4.text-xl.text-black.dark:text-black.rounded-xl}
   :::
 
 ::
