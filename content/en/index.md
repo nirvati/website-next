@@ -57,14 +57,17 @@ delay: "5000"
   ---
   [Nirvati OS is your private cloud]{.text-5xl.font-bold}
 
-  [~~Google Drive, Dropbox, Imgur, iCloud, OneDrive~~: Your home, your data.]{.text-lg.font-semibold.mb-8.text-sky-200}
+  [~~Google Drive, Dropbox, Imgur, iCloud, OneDrive~~:]{.text-lg.font-semibold.mb-8.text-sky-200}
+  [Your home, your data.]{.text-lg.font-bold.mb-8.text-sky-200}
 
   :nuxt-img{.rounded-lg alt="Personal Cloud Illustration" ariaHidden="true" src="/front-page/personal-cloud.jpg"}
   :::
 
-# Self-Sovereignity is freedom
+[Self-Sovereignity is freedom]{.text-4xl.font-bold.block.mb-4.text-[#800080]}
 
-Nirvati OS is your route to regain data liberty and regain control of your digital life and data. Nirvati is Free and Open Source Software (FOSS), its completely free to use and modify for any purpose. You are the Cloud now!
+[Nirvati OS is your route to regain data liberty and regain control of your digital life and data.]{.font-semibold.block.mb-2}
+
+[Nirvati is Free and Open Source Software (FOSS), its completely free to use and modify for any purpose. You are the Cloud now!]{.font-bold.block}
 
   :::img-with-card
   ---
@@ -79,9 +82,11 @@ Nirvati OS is your route to regain data liberty and regain control of your digit
   :::div{.py-8}
   :::
 
-# Welcome to Digital Sovereignty
+[Welcome to Digital Sovereignty]{.text-4xl.font-bold.block.mb-4.text-[#800080]}
 
-Nirvati can run on any mini-/PC, Raspberry Pi, Homelab, VM, on a RockPro or a NUC. No need for specialized hardware!
+Nirvati can run on any mini-/PC, Raspberry Pi, Homelab, VM, on a RockPro or a NUC.
+
+[No need for specialized hardware!]{.font-bold.block}
 
   :::img-with-card
   ---
@@ -109,7 +114,7 @@ Nirvati can run on any mini-/PC, Raspberry Pi, Homelab, VM, on a RockPro or a NU
   Self-host your LLMs today.
   :::
 
-# Nirvati App Store
+[Nirvati app store]{.text-4xl.font-bold.block.mb-4.text-[#800080]}
 
   :::two-cards
   ---
