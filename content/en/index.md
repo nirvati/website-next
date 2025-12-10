@@ -9,7 +9,7 @@ description: Nirvati OS is your private cloud solution, empowering you to take c
 delay: "5000"
 ---
 #item-1
-[Your digital destiny, at home]{.text-4xl.font-bold.text-white.bg-[#800080]/80.p-4.rounded-xl.block.mb-3.w-fit}[The Personal Cloud: Versatile, Secure and Easy-to-use]{.text-lg.font-semibold.text-white.bg-sky-400/80.p-4.rounded-xl.block.mb-3.w-fit}
+[Your digital destiny, at home]{.text-4xl.font-bold.text-white.bg-[#800080]/80.p-4.rounded-xl.block.mb-3.w-fit}[The Versatile, Secure and Easy-to-use Personal Cloud]{.text-lg.font-semibold.text-white.bg-sky-400/80.p-4.rounded-xl.block.mb-3.w-fit}
 
 #item-2
 [Financial freedom for everyone]{.text-4xl.font-bold.text-white.bg-[#800080]/80.p-4.rounded-xl.block.mb-3.w-fit}[Empower your finances with a suite of Bitcoin apps]{.text-lg.font-semibold.text-white.bg-sky-400/80.p-4.rounded-xl.block.mb-3.w-fit}
