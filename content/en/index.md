@@ -86,7 +86,7 @@ delay: "5000"
 
 [Welcome to Digital Sovereignty]{.text-4xl.font-bold.block.mb-4.text-[#800080]}
 
-Nirvati can run on any mini-/PC, Raspberry Pi, Homelab, VM, on a RockPro or a NUC.
+Run it on any mini-/PC, Raspberry Pi, Homelab, VM, on a RockPro or a NUC &mdash;
 
 [No need for specialized hardware!]{.font-bold.block}
 
@@ -106,19 +106,15 @@ Nirvati can run on any mini-/PC, Raspberry Pi, Homelab, VM, on a RockPro or a NU
     right-1/2 -translate-x-1/2 flex items-center justify-center flex-col pt-4
     pb-12 px-4 md:px-12 lg:px-24 mt-12 mb-12 overflow-x-hidden
   ---
-  [Unleash the power of AI]{.text-5xl.font-bold}
+  <div class="my-12">
+  <h1 class="text-5xl font-bold text-white mb-4">Unleash the power of AI</h1>
+  <span class="text-lg font-semibold text-sky-200">Ask questions, educate yourself on a topic or send requests based on your personal files – but without the curious middlemen.</span>
+</div>
 
-  [Ask questions, educate yourself on a topic or send requests based on your personal files – but without the curious middlemen.]{.text-lg.font-semibold.mb-8.text-sky-200}
-
-
-  ::::app-store-ai-apps
+  ::::app-store-ai-apps{class="mb-4"}
   ::::
-  
-  Ask sensitive questions safely.
-  No registration required.
-  No privacy leaks.
-  With AI integration on various apps.
-  
+
+  No registration or privacy leaks, with AI integration on these and other apps.
 
   :::
 

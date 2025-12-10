@@ -18,6 +18,10 @@ h1, h2, h3, h4, h5, h6 {
   @apply text-[#800080];
 }
 
+h1.text-white, h2.text-white, h3.text-white, h4.text-white, h5.text-white, h6.text-white {
+  @apply text-white;
+}
+
 @import "tailwindcss";
 @import "@nuxt/ui";
 

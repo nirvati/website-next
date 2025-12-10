@@ -1057,7 +1057,7 @@ const appStore: {
     },
     icon: "https://raw.githubusercontent.com/runtipi/runtipi-appstore/master/apps/nocodb/metadata/logo.jpg",
   },
-  {
+  /*{
     name: {
       en: "Discourse",
     },
@@ -1066,7 +1066,7 @@ const appStore: {
       en: "The online home for your community",
     },
     icon: "https://official-app-icons.nirvati.org/discourse/icon.svg",
-  },
+  },*/
   {
     name: {
       en: "EMQX Open Source",
@@ -1914,15 +1914,6 @@ const appStore: {
       en: "The selfhosted audiobook server",
     },
     icon: "https://raw.githubusercontent.com/runtipi/runtipi-appstore/master/apps/booksonic/metadata/logo.jpg",
-  },
-  {
-    name: {
-      en: "Plausible",
-    },
-    tagline: {
-      en: "Simple, open-source, lightweight (< 1 KB) and privacy-friendly web analytics alternative to Google Analytics.",
-    },
-    icon: "https://raw.githubusercontent.com/runtipi/runtipi-appstore/master/apps/plausible/metadata/logo.jpg",
   },
   {
     name: {
