@@ -238,7 +238,7 @@ const appStore: {
     },
     icon: "https://official-app-icons.nirvati.org/freshrss/icon.svg",
   },
-  {
+  /*{
     name: {
       en: "LNbits",
     },
@@ -246,7 +246,7 @@ const appStore: {
       en: "Multi-user wallet management system",
     },
     icon: "https://official-app-icons.nirvati.org/lnbits/icon.svg",
-  },
+  },*/
   {
     name: {
       en: "Home Bridge",
