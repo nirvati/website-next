@@ -106,9 +106,7 @@ Nirvati can run on any mini-/PC, Raspberry Pi, Homelab, VM, on a RockPro or a NU
   Ask sensitive questions safely.
   No registration required.
   No privacy leaks.
-  Integrated AI features
-
-  AI at your fingertips.
+  Self-host your LLMs today.
   :::
 
 # Nirvati App Store
@@ -133,10 +131,6 @@ Nirvati can run on any mini-/PC, Raspberry Pi, Homelab, VM, on a RockPro or a NU
     ::::
   :::
 
-# The Nirvati Family
-
-[OSs | Tools | Services]{.font-semibold.text-2xl}
-
   :::div
   ---
   class: bg-nirvati-brand text-white w-screen max-w-none relative left-1/2
@@ -154,16 +148,4 @@ Nirvati can run on any mini-/PC, Raspberry Pi, Homelab, VM, on a RockPro or a NU
   [How to contribute?](/contribute){.bg-white.dark:bg-white.p-4.text-xl.text-black.dark:text-black.rounded-lg}
   :::
 
-## Prefer pre-installed OS?
-
-Get a Nirvati device
-set up and ready directly
-from our hardware partner !
-Join the hardware
-partner program
-Submit
-Sponsoring
-Our journey thrives thanks to the support of individuals, families, and organizations that are
-dedicated to ensuring privacy, security and data ownership for everyone’s digital freedom.
-Meet our sponsors
 ::
