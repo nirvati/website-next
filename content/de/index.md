@@ -59,7 +59,7 @@ delay: "5000"
   ---
   [Nirvati OS is your private cloud]{.text-5xl.font-bold}
 
-  [~~Google Drive, Dropbox, Imgur, iCloud, OneDrive~~:]{.block.text-lg.font-semibold.mb-2.text-sky-200}
+  [~~Google Drive, Dropbox, Imgur, iCloud, OneDrive~~:]{.block.text-lg.mb-2.text-sky-200}
   [Your home, your data.]{.text-lg.font-bold.mb-8.text-sky-200}
 
   :nuxt-img{.rounded-lg alt="Personal Cloud Illustration" ariaHidden="true" src="/front-page/personal-cloud.jpg"}
